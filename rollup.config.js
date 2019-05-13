@@ -1,7 +1,7 @@
 export default {
     input: './src/index.js',
     preserveModules: true,
-    treeshake: false,
+    treeshake: true,
     output: {
         dir: './dist',
         format: 'esm',
